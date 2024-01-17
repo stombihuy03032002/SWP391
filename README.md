@@ -1,0 +1,8 @@
+### WELCOME TO SWP PROJECT
+#### YOU WILL FIND IN THIS REPO THE FOLLOWING STUFF
+
+*A C# SOLUTION OFFER...
+*A ...
+
+#### CONNECT ME VIA : tuanpn12301@gmail.com
+#### &#169; 2024 tuanpn
