@@ -1,0 +1,21 @@
+﻿<Window x:Class="ReadFile.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CSV Viewer" Height="419" Width="1344">
+    <Grid Margin="42,48,54,0">
+        <ListView x:Name="csvListView" Margin="10,48,624,35">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Province" DisplayMemberBinding="{Binding Province}" Width="100"/>
+                    <GridViewColumn Header="Mathematics" DisplayMemberBinding="{Binding AverageMathematicsScore}" Width="150"/>
+                    <GridViewColumn Header="MathStudents"  DisplayMemberBinding="{Binding TotalCandidates}" Width="100"/>
+                   
+                    
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Load CSV" Click="LoadCsvButton_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="10"/>
+     
+
+    </Grid>
+</Window>
