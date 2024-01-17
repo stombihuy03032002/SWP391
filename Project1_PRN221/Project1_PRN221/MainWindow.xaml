@@ -1,0 +1,31 @@
+﻿<Window x:Class="Project1_PRN221.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project1_PRN221"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="351,107,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged" TextAlignment="Center"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Margin="351,163,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextAlignment="Center" />
+        <Button Content="Calculator Clear" HorizontalAlignment="Left" Margin="351,209,0,0" VerticalAlignment="Top" Background="Blue" Width="155" Click="Button_Click"/>
+        <TextBox x:Name="txt3" HorizontalAlignment="Left" Margin="351,252,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Background="Green" TextAlignment="Center" TextChanged="txt3_TextChanged"/>
+        <TextBox x:Name="txt4" HorizontalAlignment="Left" Margin="351,302,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.596,0.477" FontWeight="Bold" TextAlignment="Center"/>
+        <Label
+    VerticalAlignment="Top" Margin="268,163,0,0" HorizontalAlignment="Left" Content="Height&#xD;&#xA;&#xD;&#xA;" Height="32"
+      />
+        <Label
+    VerticalAlignment="Top" Margin="266,107,0,0" HorizontalAlignment="Left" Content="Weight"
+      />
+        <Label
+    VerticalAlignment="Top" Margin="268,252,0,0" HorizontalAlignment="Left" Content="BMI"
+      />
+        <Label
+    VerticalAlignment="Top" Margin="268,302,0,0" HorizontalAlignment="Left" Content="Status" 
+      />
+        <Label Content="BIM Calculator" HorizontalAlignment="Left"  Margin="351,53,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.489,0.592" Width="153"  FontWeight="Bold" />
+        <Label Content="cm&#xD;&#xA;" HorizontalAlignment="Left" Margin="483,163,0,0" VerticalAlignment="Top" Height="27"/>
+        <Label Content="kg" HorizontalAlignment="Left" Margin="483,102,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
